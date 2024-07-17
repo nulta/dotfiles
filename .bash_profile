@@ -2,7 +2,9 @@
 # ~/.bash_profile
 #
 
-export VISUAL=nano
-export EDITOR=nano
+# Execute `.profile`
+# User variables are inside `.profile`
+[[ -f ~/.profile]] && . ~/.profile
 
+# Execute `.bashrc`
 [[ -f ~/.bashrc ]] && . ~/.bashrc
