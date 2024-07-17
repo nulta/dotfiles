@@ -15,10 +15,12 @@ yay --noconfirm -Syu \
     xdg-desktop-portal-hyprland xdg-desktop-portal-gtk \
     kitty dolphin \
     nwg-drawer-bin \
-    greetd
+    greetd \
+    waybar otf-font-awesome
+
 
 # Setting up `greetd`
-# NOTE: If you want to auto-login, edit the configuration file `/etc/greetd/config.toml`.
+# NOTE: If you want to auto-login, edit the configuration file `/etc/greetd/config.toml`
 
 systemctl enable greetd.service
 
@@ -32,4 +34,6 @@ user = "greeter"
 
 EOF
 
+
+# Installation done!
 echo "Installation Done!"
