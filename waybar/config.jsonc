@@ -22,10 +22,10 @@
         // "idle_inhibitor",
         "network",
         "pulseaudio",
-        "power-profiles-daemon",
+        // "power-profiles-daemon",
         "backlight",
         // "cpu",
-        // "memory",
+        "memory",
         // "temperature",
         // "keyboard-state",
         // "sway/language",
@@ -92,7 +92,7 @@
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "{used} GiB"
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -140,11 +140,11 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-alt": "{ifname}: {ipaddr}"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
+        "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
