@@ -19,7 +19,8 @@ yay --noconfirm -Syu \
     waybar otf-font-awesome \
     hyprpaper hypridle hyprlock \
     grim slurp wl-clipboard \
-    fprint brightnessctl
+    fprint brightnessctl \
+    kime-bin
 
 # Installation done!
 echo "Desktop Installation Done!"

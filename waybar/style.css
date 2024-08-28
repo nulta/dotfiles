@@ -344,3 +344,7 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+
+#custom-notification {
+    margin-right: 8px;
+}
