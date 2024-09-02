@@ -254,7 +254,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    /*background-color: #2980b9;*/
 }
 
 #tray > .passive {
@@ -346,5 +346,5 @@ label:focus {
 }
 
 #custom-notification {
-    margin-right: 8px;
+    padding-right: 8px;
 }
