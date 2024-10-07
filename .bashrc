@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias cls='clear'
 
 function status {
     date +'%Y-%m-%d, %H:%M:%S (%Z)'
@@ -18,3 +19,6 @@ function status {
 
 PS1='\[\033[94m\]\u@\h\[\033[97m\]:\[\033[93m\]\w \[\033[96m\]\$\[\033[97m\] '
 PS0='\[\033[0m\]'
+
+# If on kitty, fix ssh connections
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"

@@ -16,11 +16,12 @@ yay --noconfirm -Syu \
     kitty dolphin \
     nwg-drawer-bin \
     greetd \
-    waybar otf-font-awesome \
+    otf-font-awesome \
     hyprpaper hypridle hyprlock \
     grim slurp wl-clipboard \
     fprint brightnessctl \
-    kime-bin
+    fcitx5 fcitx5-im fcitx5-hangul \
+    aylurs-gtk-shell
 
 # Installation done!
 echo "Desktop Installation Done!"

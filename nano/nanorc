@@ -66,7 +66,7 @@ set autoindent
 
 ## Draw a vertical stripe at the given column, to help judge text width.
 ## (This option does not have a default value.)
-# set guidestripe 75
+set guidestripe 80
 
 ## Remember the used search/replace strings for the next session.
 # set historylog
@@ -163,7 +163,7 @@ set nonewlines
 ## will jump to that beginning (either forwards or backwards).  If the
 ## cursor is already at that position, it will jump to the true start
 ## of the line (the left edge).
-# set smarthome
+set smarthome
 
 ## Spread overlong lines over multiple screen lines.
 # set softwrap
